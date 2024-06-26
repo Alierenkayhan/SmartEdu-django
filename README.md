@@ -71,6 +71,18 @@
 
 See the [open issues](https://github.com/Alierenkayhan/SmartEdu-django/issues) for a full list of proposed features (and known issues).
 
+İf you want to add new application to the project, please follow this;
+
+1. Go to smartedu_con
+   ```sh
+   cd smarted_con
+   ```
+2. Create new application
+   ```sh
+   python manage.py startapp courses
+   ```
+3. Write 'courses.apps.PagesConfig' to the INSTALLED_APPS from the settings in smartedu
+
 
 ## 🧐 Contributing
 
