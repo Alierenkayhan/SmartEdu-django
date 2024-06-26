@@ -98,3 +98,22 @@ Don't forget to give the project a star! Thanks again!
 </td>
 </tr>
 </table>
+
+<!-- LICENSE -->
+## 📝 License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+
+<!-- CONTACT -->
+## ✍️ Contact
+
+If you have any feedback, please contact me at a.erenkayhan@gmail.com.
+
+<!-- Resources -->
+## 🚀 Resources
+ 
+* [Arin Yazılım youtube channel](https://www.youtube.com/watch?v=_JObjAlFC-k&list=PL-Hkw4CrSVq_JXtwz77IxExR3QEbd_b4K&index=8)
+* [alper akbas youtube channel](https://www.youtube.com/@alperakbash/playlists)
+* [Badges4-README.md-Profile](https://github.com/alexandresanlim/Badges4-README.md-Profile)
+* [shields.io](https://shields.io/)
