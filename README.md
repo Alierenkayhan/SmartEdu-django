@@ -61,12 +61,17 @@
    ```sh
    pip install -r requirements.txt
    ```
-9. Run the server
+9. Migrations
+   ```sh
+   cd smartedu
+   python manage.py migrate
+   ```
+10. Run the server 
    ```sh
    cd smartedu
    python manage.py runserver
    ```
-10. To create super user
+11. To create super user
    ```sh
    deactivate
    python manage.py createsuperuser
