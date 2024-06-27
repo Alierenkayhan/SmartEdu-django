@@ -31,6 +31,7 @@
   VS Code 
   Python
   Django
+  SQLite
   ```
 
 İf you want to use choco, use choco --version 2.3.0
@@ -42,28 +43,30 @@
    ```sh
    git clone https://github.com/Alierenkayhan/SmartEdu-django.git
    ```
-3. Open the project on Vs Code and go to the project directory 
+3. Create db.sqlite3 in smartedu_con
+
+5. Open the project on Vs Code and go to the project directory 
    ```sh
    cd SmartEdu-django
    ```
-4. Create virtual environment
+6. Create virtual environment
    ```sh
    python -m venv venv
    ```
-5. Activate virtual environment
+7. Activate virtual environment
    ```sh
    venv\Scripts\activate
    ```
-6. Open it in terminal and install required packages from requirements.txt
+8. Open it in terminal and install required packages from requirements.txt
    ```sh
    pip install -r requirements.txt
    ```
-7. Run the server
+9. Run the server
    ```sh
    cd smartedu
    python manage.py runserver
    ```
-8. To create super user
+10. To create super user
    ```sh
    deactivate
    python manage.py createsuperuser
