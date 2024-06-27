@@ -54,9 +54,9 @@
    ```sh
    venv\Scripts\activate
    ```
-6. Open it in terminal and install required packages
+6. Open it in terminal and install required packages from requirements.txt
    ```sh
-   pip install django
+   pip install -r requirements.txt
    ```
 7. Run the server
    ```sh
@@ -83,6 +83,11 @@ See the [open issues](https://github.com/Alierenkayhan/SmartEdu-django/issues) f
    ```
 3. Write 'courses.apps.PagesConfig' to the INSTALLED_APPS from the settings in smartedu
 
+If you want to create new requirements.txt, use `py -m pip freeze > requirements.txt`
+
+To create migration;
+1. `python manage.py makemigrations`  (here you can migrate specific model just add the name at the end of the sentence)
+2. `python manage.py migrate`
 
 ## 🧐 Contributing
 
